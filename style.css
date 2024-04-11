@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5f2d2d;
+    display: block;
+
+  }
+
+
+  header {
+    background-color: #3d3434;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header h1 a, header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hero {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+
+  section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+
+  nav ul {
+    list-style-type: none; /* Removes the bullet points */
+    margin: 0; /* Removes the margins */
+    padding: 0; /* Removes the padding */
+    overflow: hidden; /* Ensures the list's dimensions are contained within its parent element */
+}
+
+nav ul li {
+    float: left; /* Positions the list items side by side */
+}
+
+nav ul li a {
+    display: block; /* Allows padding to be applied */
+    color: rgb(233, 232, 232); /* Sets the text color */
+    text-align: center; /* Centers the text */
+    padding: 14px 16px; /* Adds space around the text */
+    text-decoration: none; /* Removes the underline */
+    
+}
+
+nav ul li a:hover {
+    color: rgb(10, 5, 5); /* Change the text color to red when hovering */
+    font-family: Arial; /* Change the font to Arial when hovering */
+    background-color: lightgray; /* Change the background color to lightgray when hovering */
+
+}
